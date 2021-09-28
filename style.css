@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  background: #ECF4FF;
+  margin: 60px;
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  color: #1C1C1C;
+} 
+
+
+
+/*flexbox*/
+
+.cabecalho{
+  display: flex;
+  justify-content:space-between; /* tem espaço entre os elementos*/
+}
+
+.perfil{
+  display: flex;
+}
+
+.perfil-foto{
+  border-radius: 400px;
+  max-height: 150px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulos{
+  margin-left: 16px;
+}
+
+
+.titulos h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulos h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  /*color: #0E1D2F;*/
+  background: #ECF4FF;
+  border-radius: 100px;
+  border: 2px solid #0E1D2F;
+
+}
+
+
+.projetos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  margin-top: 32px;
+  padding:32px;
+}
+
+
+.projetos-titulo{
+  list-style: none;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.projetos-item{
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+
+.midias{
+  display: flex;
+  flex-direction: lines;
+  align-items: top;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.redes-titulo{
+  list-style: none;
+  font-weight: 700;
+  font-size: 24px;
+  color:#F6F6F6;
+}
+
+.redes-item{
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.redes-item a, .agradecimentos a{
+  text-decoration: none;
+  color:#F7F7F7;
+}
+
+.agradecimentos{
+  list-style: none;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+
+.ag-item{
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.dark{
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container{
+  background: #333439;
+  color: #F7F7F7;
+}
+
+.dark .projetos{
+  color: #1C1C1C;
+}
+
+.dark .tema{
+  background: #1C1C1C;
+  color: #F6F6F6;
+  border: 2px solid #F7F7F7;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
