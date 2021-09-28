@@ -92,8 +92,12 @@ body{
   flex-direction: lines;
   align-items: top;
   justify-content: space-between;
-  margin-top: 10px;
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #499CFE 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  margin-top: 25px;
   padding: 5px;
+  
 }
 
 .redes-titulo{
@@ -101,6 +105,7 @@ body{
   font-weight: 700;
   font-size: 24px;
   color:#F6F6F6;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
 .redes-item{
@@ -108,10 +113,13 @@ body{
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  
+  
 }
 .redes-item a, .agradecimentos a{
   text-decoration: none;
   color:#F7F7F7;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
 .agradecimentos{
